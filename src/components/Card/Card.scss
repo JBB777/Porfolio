@@ -1,5 +1,16 @@
 .card {
   border: solid turquoise;
+  display: grid;
+  grid-template-columns: 1fr 0fr;
+
+  &:hover {
+    grid-template-columns: 0fr 1fr;
+  }
+
+  &__title,
+  &__description {
+    overflow: hidden;
+  }
 
   &__tags {
     display: flex;

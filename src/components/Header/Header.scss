@@ -8,15 +8,31 @@
   nav {
     width: 50%;
 
-    ul {
-      display: flex;
-      flex-direction: row;
-      gap: 20px;
-      width: 100%;
+    &:hover > ul li:hover .sous {
+      position: absolute;
+      display: block;
+      padding: 0;
+      background-color: white;
+    }
+
+    .sous {
+      display: none;
     }
 
     li {
       list-style: none;
+    }
+  }
+}
+
+@media screen and (min-width: 500px) {
+  .header {
+    nav {
+      display: flex;
+      flex-direction: row;
+    }
+    .sous {
+      display: block;
     }
   }
 }
