@@ -1,9 +1,15 @@
+import Header from './components/Header/Header';
+import Profil from './containers/Profil/Profil';
+import Projects from './containers/Projects/Projects';
+import Footer from './components/Footer/Footer';
+
 function App() {
   return (
     <>
-      <header>
-        <h1>PORTFOLIO TEST</h1>
-      </header>
+      <Header />
+      <Profil />
+      <Projects />
+      <Footer />
     </>
   );
 }

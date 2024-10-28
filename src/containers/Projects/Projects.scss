@@ -1,0 +1,13 @@
+.projects {
+  border: solid red;
+
+  &__title {
+    text-align: center;
+  }
+
+  &__gallery {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 5px;
+  }
+}

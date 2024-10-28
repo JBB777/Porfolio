@@ -1,0 +1,16 @@
+.profil {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  border: solid yellow;
+
+  img {
+    border-radius: 50px;
+    width: 15%;
+  }
+
+  p {
+    border: solid yellowgreen;
+  }
+}
